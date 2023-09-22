@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: #000;
+}
+
+.header{
+    padding: 17px 20px;
+}
+.header-line{
+    display: flex;
+    justify-content: end;
+}
+
+.header-link{
+    color: #9AA0A6;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+
+    padding-right: 38px;
+}
+
+.header-button{
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+
+    padding: 9px 22px;
+    border-radius: 10px;
+    background-color: #00CB18;
+}
+
+
+
+
+.main-title-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 39.5px;
+}
+
+.main-subtitle-box{
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+}
+
+.main-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1.6px;
+}
+
+.main-subtitle{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.64px;
+}
+
+.main-subtitle-link{
+    color: #00CB18;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.64px;
+    text-decoration: underline;
+
+    margin-left: 3.7px;
+}
+
+
+
+
+
+.log-in-settings{
+    display: flex;
+    justify-content: center;
+}
+.log-in-container{
+    padding: 50px 0 100px 0;
+}
+
+.log-in-box{
+    padding: 41px 41px 21px 41px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    justify-content: center;
+    
+    border-radius: 10px;
+    border: 1px solid #202020;
+    background: #141414;
+}
+
+
+.log-in-text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.64px;
+}
+
+.log-in-email-input{
+    width: 418px;
+    height: 50px;
+
+    border-radius: 10px;
+    border: 1px solid #3e4042;
+    background: #202124;
+
+    margin-top: 3px;
+
+    color: #00CB18;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.64px;
+}
+
+.log-in-password-input{
+    width: 418px;
+    height: 50px;
+
+    border-radius: 10px;
+    border: 1px solid #3e4042;
+    background: #202124;
+
+    margin-top: 11px;
+
+    color: #00CB18;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.64px;
+}
+
+.log-in-password-line{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 9px;
+}
+
+.log-in-password-text{
+    color: #00CB18;
+    text-align: right;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.56px;
+}
+
+
+
+.log-in-sing-in-button{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 30px;
+    margin-bottom: 21px;
+
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.64px;
+
+    padding: 15px 182px;
+    border-radius: 10px;
+    background: #00CB18;
+}
+
+
+
+
+
+.footer{
+    display: flex;
+    padding: 51px 812px 0px 794px;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    gap: 0px 10px;
+    flex-wrap: wrap;
+
+    border-top: 1px solid #1B1B1B;
+}
+
+.footer-text-box{
+    display: flex;
+}
+
+.footer-b-text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+}
+.footer-l-text{
+    color: #9AA0A6;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.64px;
+}
+
+.f-t-b-1{
+    margin-right: 42px;
+}
+.f-t-b-2{
+    margin-left: 42px;
+}
+
+.footer-bottom-text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+
+    margin-top: 80px;
+    margin-bottom: 103px;
+}
